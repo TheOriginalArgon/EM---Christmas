@@ -28,9 +28,7 @@
             <li Class="CompProperties_UseEffect">
                 <compClass>EMChristmas.CompUseEffect_SpawnSupplies</compClass>
             </li>
-            <li Class="CompProperties_UseEffect">
-                <compClass>CompUseEffect_DestroySelf</compClass>
-            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
             <li>
                 <compClass>CompColorable</compClass>
             </li>
@@ -87,9 +85,7 @@
             <li Class="CompProperties_UseEffect">
                 <compClass>EMChristmas.CompUseEffect_SpawnSupplies</compClass>
             </li>
-            <li Class="CompProperties_UseEffect">
-                <compClass>CompUseEffect_DestroySelf</compClass>
-            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
             <li>
                 <compClass>CompColorable</compClass>
             </li>

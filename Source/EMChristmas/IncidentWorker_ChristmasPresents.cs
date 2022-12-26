@@ -15,7 +15,7 @@ namespace EMChristmas
 
         protected override bool TryExecuteWorker(IncidentParms parms)
         {
-            if (DateTime.Now.Month == 12)
+            if ((DateTime.Now.Month > 10 && DateTime.Now.Month <= 12) || DateTime.Now.Month == 1)
             {
                 Map map = (Map)parms.target;
                 if (smallGiftDefs == null) //Only load them if we haven't already

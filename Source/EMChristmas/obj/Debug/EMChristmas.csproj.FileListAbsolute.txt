@@ -3,4 +3,4 @@ C:\Steam\steamapps\common\RimWorld\Mods\EM - Christmas\Source\EMChristmas\obj\De
 C:\Steam\steamapps\common\RimWorld\Mods\EM - Christmas\1.3\Assemblies\EMChristmas.dll
 C:\Steam\steamapps\common\RimWorld\Mods\EM - Christmas\Source\EMChristmas\obj\Debug\EMChristmas.dll
 C:\Steam\steamapps\common\RimWorld\Mods\EM - Christmas\Source\EMChristmas\obj\Debug\EMChristmas.csproj.AssemblyReference.cache
-C:\Steam\steamapps\common\RimWorld\Mods\EM - Christmas\Source\EMChristmas\obj\Debug\EMChristmas.csproj.CopyComplete
+C:\Steam\steamapps\common\RimWorld\Mods\EM - Christmas\1.4\Assemblies\EMChristmas.dll
