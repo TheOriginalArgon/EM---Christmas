@@ -13,9 +13,11 @@ namespace EMChristmas
         List<ThingDef> smallGiftDefs = null; //This goes in the class level, not inside the method
         List<ThingDef> largeGiftDefs = null; //This goes in the class level, not inside the method
 
+        bool ChristmasUnlocked = LoadedModManager.GetMod<EMChristmas>().GetSettings<EMChristmas_ModSettings>().ChristmasUnlocked;
+
         protected override bool TryExecuteWorker(IncidentParms parms)
         {
-            if ((DateTime.Now.Month > 10 && DateTime.Now.Month <= 12) || DateTime.Now.Month == 1)
+            if (((DateTime.Now.Month > 10 && DateTime.Now.Month <= 12) || DateTime.Now.Month == 1) || ChristmasUnlocked)
             {
                 Map map = (Map)parms.target;
                 if (smallGiftDefs == null) //Only load them if we haven't already
